@@ -1,4 +1,4 @@
-# app/controllers/grades_controller.rb
+#app/controllers/grades_controller.rb
 class GradesController < ApplicationController
   def index
     grades = Grade.all
@@ -20,5 +20,3 @@ class GradesController < ApplicationController
     params.require(:grade).permit(:student_id, :subject, :value)
   end
 end
-
-
