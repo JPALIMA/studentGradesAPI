@@ -13,7 +13,7 @@ class GradesController < ApplicationController
   end
 
   private
-
+  
   def grade_params
     params.require(:grade).permit(:student_id, :subject, :value)
   end
