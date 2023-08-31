@@ -1,5 +1,5 @@
-#app/controllers/grades_controller.rb
-class GradedsController < ApplicationController
+#app/Controllers/grades_controller.rb
+class GradesController < ApplicationController
   def index
     grades = Grade.all
     render json: grades
